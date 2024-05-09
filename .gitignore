@@ -5,3 +5,7 @@
 cmake-build-*
 runner/cache_backup/*
 build*
+resource/gurobi912/*
+result
+*.log
+tmp

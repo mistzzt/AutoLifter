@@ -12,7 +12,7 @@
 
 namespace {
     Json::Value loadFromFile(std::string file_name) {
-        std::ifstream inp(file_name, std::ios::out);
+        std::ifstream inp(file_name);
         std::stringstream buf;
         Json::Reader reader;
         Json::Value root;
